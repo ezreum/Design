@@ -1,0 +1,42 @@
+
+ul{
+    list-style: none;
+    overflow: hidden;
+}
+.columna{
+    width: 45%;
+    padding: 10px 20px;
+    float: left;
+}
+label span{
+    color: red;
+}
+ label{
+    padding: 5px 0;
+    display: block;
+ }
+ input {
+     display: block;
+ }
+.ayuda{
+    display:none;
+}
+.peque{
+    float: left;
+    width: 50%;
+}
+li:hover{
+    background-color: lightyellow;
+}
+input:focus{
+    border-color: #E6B700;
+}
+.boton{
+    width: 100%;
+    border-top: 1px solid grey;
+    float:right;
+}
+#alta{
+ float: right; 
+ margin-right: 5%;  
+}

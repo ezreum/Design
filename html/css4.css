@@ -1,0 +1,50 @@
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#titulo {
+    color:darkcyan;
+}
+p strong {
+    color: red;
+}
+.destacado {
+    color: goldenrod;
+}
+#subtitulo {
+    color: blue;
+}
+p a {
+    color:red;
+}
+p a em {
+    color: blue;
+}
+p .especial {
+    color: darkviolet;
+}
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table caption{
+    color:blue;
+}
+table .especial,strong{
+    color: goldenrod;
+}
+table td{
+    color:green;
+}
+th,td[scope="row"]{
+    color:red;
+}
+p {
+    color:olive;
+}
+#especial {
+    color:blueviolet;
+}
+div p a{
+    color:green;
+}

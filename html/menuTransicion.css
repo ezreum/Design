@@ -1,0 +1,32 @@
+div {
+    margin:5% 0 0 5%;
+    padding:1%;
+    background-image: linear-gradient( white,lightblue);
+    width: 15%;
+    border-radius: 20px;
+}
+.lt {
+    list-style: none;
+    padding:0;
+}
+li{
+    margin-top: 5%;
+    margin-right: 10%;
+    border-bottom: 1px solid black;
+    padding:5% 5%;
+    border-radius: 20px;
+    text-align: left;
+}
+li:first{
+    margin-top: 0;
+}
+li:hover{
+    margin-left: 5%;
+    color: greenyellow;
+    background-color: coral;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 2px -2px lightgreen;
+    transition-property: color, background-color, font-size, text-shadow;
+    transition-duration: 2s, 3s, 3s, 3s;
+}

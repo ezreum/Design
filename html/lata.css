@@ -1,0 +1,27 @@
+.contenedor{
+    width:194px;
+    height: 336px;
+    margin: 200px auto;
+    background-image: url(imagenLata/etiqueta.jpg);
+    background-size: 772px 336px;   
+    animation-name: rotar;
+    animation-duration: 5s;
+    animation-direction:alternate;
+
+}
+.lata{
+    width: 194px;
+    height: 336px;
+    background-image: url("imagenLata/lata.png");
+    background-repeat: no-repeat;
+}
+@keyframes rotar{
+    0%{
+        top:0;
+        left:0;
+    }
+    100%{
+        top:50px;
+        left:50px;
+    }
+}

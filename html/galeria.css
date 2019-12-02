@@ -1,0 +1,45 @@
+
+.cuadro {
+    margin-left: 20%;
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+
+.imagen1{
+    transform: rotateZ(130deg);
+    z-index: 1;
+}
+.imagen2{
+    transform: rotateZ(145deg);
+    z-index: 2;
+}
+.imagen3{
+    transform: rotateZ(250deg);
+    z-index: 3;
+}
+.imagen4{
+    transform: rotateZ(100deg);
+    z-index: 4;
+}
+.imagen5{
+    transform: rotateZ(25deg);
+    z-index: 5;
+}
+.imagen6{
+    transform: rotateZ(45deg);
+    z-index: 6;
+}
+
+
+img {
+    float: left;
+}
+
+
+img:hover{
+    transform: scale(1.2);
+    z-index: 10;
+    transform-origin: top left;
+    transition: all 4s;
+}

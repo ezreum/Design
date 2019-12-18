@@ -24,14 +24,14 @@
         <h2>4 columnas del mismo tamaño</h2>
 
         <div class="row">
-            <div class="w-25">1</div>
-            <div class="w-25">2</div>
-            <div class="w-25">3</div>
-            <div class="w-25">4</div>
-            <div class="w-25">5</div>
-            <div class="w-25">6</div>
-            <div class="w-25">7</div>
-            <div class="w-25">8</div>
+            <div class="col-6">1</div>
+            <div class="col-6">2</div>
+            <div class="col-6">3</div>
+            <div class="col-6">4</div>
+            <div class="col-6">5</div>
+            <div class="col-6">6</div>
+            <div class="col-6">7</div>
+            <div class="col-6">8</div>
         </div>
 
         <h2>4 columnas de un tamaño de 3</h2>
@@ -72,14 +72,14 @@
         <h2>2 columnas del mismo tamaño</h2>
 
         <div class="row">
-            <div class="w-50 ">1</div>
-            <div class="w-50 ">2</div>
-            <div class="w-50 w-100"></div>
-            <div class="w-50 ">3</div>
-            <div class="w-50 ">4</div>
-            <div class="w-50 w-100"></div>
-            <div class="w-50 ">5</div>
-            <div class="w-50 ">6</div>
+            <div class="col-6 ">1</div>
+            <div class="col-6 ">2</div>
+            <div class="col-6 w-100"></div>
+            <div class="col-6 ">3</div>
+            <div class="col-6 ">4</div>
+            <div class="col-6 w-100"></div>
+            <div class="col-6 ">5</div>
+            <div class="col-6 ">6</div>
         </div>
 
         <h2>2 columnas de un tamaño de 6</h2>
@@ -175,36 +175,36 @@
             <div class="col-4">1</div>
             <div class="col-4">2</div>
         </div>
-        <div class="" style="height: 7em; border: 1px solid grey;">
-            <div class="">1</div>
-            <div class="">2</div>
+        <div class="row justify-content-center" style="height: 7em; border: 1px solid grey;">
+            <div class="col-4">1</div>
+            <div class="col-4">2</div>
         </div>
-        <div class="" style="height: 7em; border: 1px solid grey;">
-            <div class="">1</div>
-            <div class="">2</div>
+        <div class="row justify-content-end" style="height: 7em; border: 1px solid grey;">
+            <div class="col-4">1</div>
+            <div class="col-4">2</div>
         </div>
-        <div class="" style="height: 7em; border: 1px solid grey;">
-            <div class="">1</div>
-            <div class="">2</div>
+        <div class="row justify-content-around" style="height: 7em; border: 1px solid grey;">
+            <div class="col-4">1</div>
+            <div class="col-4">2</div>
         </div>
-        <div class="" style="height: 7em; border: 1px solid grey;">
-            <div class="">1</div>
-            <div class="">2</div>
+        <div class="row justify-content-between" style="height: 7em; border: 1px solid grey;">
+            <div class="col-4">1</div>
+            <div class="col-4">2</div>
         </div>
 
         <h2>Huecos con offset</h2>
 
-        <div class="">
-            <div class="">.col-md-4</div>
-            <div class="">.col-md-4 .ml-auto</div>
+        <div class="row  justify-content-between">
+            <div class="col-md-4">1</div>
+            <div class="col-md-4 ml-auto">2</div>
         </div>
-        <div class="">
-            <div class="">.col-md-3 .ml-md-auto</div>
-            <div class="">.col-md-3 .ml-md-auto</div>
+        <div class="row">
+            <div class="col-md-3 ml-md-auto">3</div>
+            <div class="col-md-3 ml-md-auto">4</div>
         </div>
-        <div class="">
-            <div class="">.col-auto .mr-auto</div>
-            <div class="">.col-auto</div>
+        <div class="row">
+            <div class="col-auto mr-auto">5</div>
+            <div class="col-auto">6</div>
         </div>
 
     </div>

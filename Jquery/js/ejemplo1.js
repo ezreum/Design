@@ -5,7 +5,8 @@ $(document).ready(function() {
   
     $a.click(function() {
         if ( $a.length>0 ) {
-            alert("hay algún párrafo");
+            var texto = $a.length!=1?'s':'';
+            alert("hay "+$a.length+" párrafo"+texto);
         }
     }) 
 })

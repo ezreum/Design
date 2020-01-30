@@ -7,10 +7,13 @@ $(document).ready(function() {
     var $tercerLista1 = $("#myList").children().first().next().next();
     var $tercerLista2 = $("#myList").find("li").eq(2);
 
-    var $label = $("input.input_text");
+    var $input = $("input.input_text");
 
+    var $invisible=$("*:hidden");
+    alert("hay " +$invisible.length + " elementos ocultos");
 
-
+    var $alts = $("*").attr("alt");
+    alert("hay "+$alts.length+" alts");
     $cont.click(function() {
         if ( $cont.length>0 ) {
             alert("hay "+$cont.length+" divs de clase modulo");
@@ -23,12 +26,13 @@ $(document).ready(function() {
         }
     }) 
 
-    $label.closest("label").on("click", function() {
-        alert($label.closest("label").val());
+    $input.parent().on("click", function() {
+        alert($input.parent().text());
     })
 
+    $alts.on("click", function() {
+        
+    })
+
+
 })
-
-
-
-

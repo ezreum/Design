@@ -12,8 +12,10 @@ $(document).ready(function() {
     var $invisible=$("*:hidden");
     alert("hay " +$invisible.length + " elementos ocultos");
 
-    var $alts = $("*").attr("alt");
-    alert("hay "+$alts.length+" alts");
+    var alts = $("[alt]");
+
+    var filas = $("tr:even");
+    
     $cont.click(function() {
         if ( $cont.length>0 ) {
             alert("hay "+$cont.length+" divs de clase modulo");
@@ -30,9 +32,13 @@ $(document).ready(function() {
         alert($input.parent().text());
     })
 
-    $alts.on("click", function() {
-        
+    alts.on("click", function() {
+        alert("hay "+alts.length+" alts");
     })
 
+    filas.on("click", function() {
+        alert("hay "+filas.length+" filas impares");
+    })
+    
 
 })

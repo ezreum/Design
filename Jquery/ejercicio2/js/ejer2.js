@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     var $alts = $("img");
     var $entrada = $(":input");
-    
+    var $ahora = $();
     $alts.on("click", function() {
 
         $alts.each( function (index, value) {             
@@ -14,8 +14,8 @@ $(document).ready(function() {
     })
 
     $entrada.on("click", function() {
-        
-        alert($entrada.val());
+        $entrada.addClass("pepe");
+        alert("el valor del campo es: "+$entrada.val());
     })
     
 

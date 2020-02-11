@@ -3,13 +3,14 @@ $(document).ready(function() {
     //var alts = $("[alt]");
 
     var $lista = $("#myList");
-    var $entrada = $(":input");
-    var $ahora = $(".current");
-    var $siguiente = $ahora.next();
 
-    var $especialito=$("div#specials");
+    var $modulo = $("div.module");
 
-    var $deshabil = $("#slideshow");
+    var $seleccion = $("div.module").find("select");
+
+    var divero = $("<div class=\"module\"></div>").html($("img"));
+
+    $("body").append(divero);
 
     $lista.one("click", function() {
 
@@ -33,7 +34,21 @@ $(document).ready(function() {
     });
 
 
+    $modulo.one("click", function(){
+        alert("insertando cabecera y párrafo JQUERY style");
+        var cabecera = $("<h2></h2>").text("Otro h2");
+        var p = $("<p></p>").text("Otro párrafo");
+        $modulo.append(cabecera,p);
+    });
+
+    
 
 
+    $seleccion.one("click", function(){
+        alert("insertando wednesday");
+       var $opcion = $("<option></option>").text("wednesday");
+       $seleccion.append($opcion);
+    });
 
-})
+
+});

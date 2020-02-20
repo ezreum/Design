@@ -1,6 +1,11 @@
 $(document).ready(function() {
     var $todo = $("html");
-    var cuadradin = cuadrado.creator();
+    var cuadradin; 
+    console.log(cuadradin);
+    if (cuadradin == undefined) {
+        cuadradin = cuadrado.creator();
+    } 
+    
     $todo.on("keydown", function(e){
         if (e.which==37){
             cuadradin.x -= 10;

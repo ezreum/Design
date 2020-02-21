@@ -17,3 +17,11 @@
 .cuatro{
     top:50%; left:50%;
 }
+#imagen{
+    background-image: url(../ola.jpg);
+    width: 100%;
+}
+#contenedor{
+    width: 50%;
+    height: 50%;
+}

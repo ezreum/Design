@@ -1,50 +1,17 @@
 $(document).ready(function () {
     
-    $('button').on("click", function() {
+    setInterval(moverImagen,4000);
+
+    function moverImagen() {
         
-        $('#imagen').animate({ backgroundSize: '175%'
-         
-        })
-    })
-
-
-
-    $('.cuadrantes').hover( 
+        var $fater=$('#rotatorio');
+        var $divi = $fater.children().first();
+        $divi.appendTo($fater);
         
-        function() {
-        if ($(this).attr("id") == "uno") {
-            $('#imagen').css('background-position','left top');
-            $('#imagen').animate({ backgroundSize: '175%'   
-        })
-        }
+        $fater.children().last().toggleClass("desvanecido");
+        $fater.children().first().removeClass("desvanecido");
+        $fater.children().first().show(1000);
 
-        else if ($(this).attr("id") == "dos") {
-            $('#imagen').css('background-position','right top');
-            $('#imagen').animate({ backgroundSize: '175%'   
-        })
-        }
-
-        else if ($(this).attr("id") == "tres") {
-            $('#imagen').css('background-position','left bottom');
-            $('#imagen').animate({ backgroundSize: '175%'   
-        })
-        }
-
-        else {
-        $('#imagen').css('background-position','right bottom');
-        $('#imagen').animate({ backgroundSize: '175%'   
-            })
-        }
-    },
-
-    function() {
-        $('#imagen').finish();
-        $('#imagen').css('background-position','center');
-            $('#imagen').animate({ backgroundSize: '100%'   
-        })
-      }
-
-    );
-
+    }
 
 });

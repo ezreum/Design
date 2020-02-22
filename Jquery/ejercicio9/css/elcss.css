@@ -13,43 +13,42 @@ html, body{
 
 }
 
-.cuadrantes{
-        height: 50%;
-        width: 25%;	
-        position: absolute;	
-        z-index: 10;
-        /*border: 1px solid black;*/
-    }
-#uno{
-    top:0; 
-    left:25%;
-}
-#dos{
-    top:0; 
-    left:50%;
-}
-#tres{
-    top:50%; 
-    left:25%;
-}
-#cuatro{
-    top:50%; 
-    left:50%;
-}
-
-
 #imagen{
     background-image: url("../lands2.jpg");
     background-repeat:no-repeat;
     background-position:center;
-   background-size:100%;
-   height:100%;
-   width:50%;
-}
-/* 
-#imagen>span{
+    background-size:100%;
     height:100%;
-    width:100%;
+    width:50%;
+}
 
+#imagen2{
+    background-image: url("../ola.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    height:100%;
+    width:50%;
+}
 
-} */
+#imagen3{
+    background-image: url("../lands1.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    height:100%;
+    width:50%;
+}
+
+#imagen4{
+    background-image: url("../landscape.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    height:100%;
+    width:50%;
+}
+
+.desvanecido{
+    display: none !important;
+}

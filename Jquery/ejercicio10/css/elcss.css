@@ -1,0 +1,54 @@
+html, body{
+    width: 100%;
+    height: 80%;
+}
+
+.contenedorMain{
+    height: 100%;
+
+}
+
+.contenedor{
+    height: 100%;
+
+}
+
+#imagen{
+    background-image: url("../lands2.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    height:100%;
+    width:50%;
+}
+
+#imagen2{
+    background-image: url("../ola.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    height:100%;
+    width:50%;
+}
+
+#imagen3{
+    background-image: url("../lands1.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    height:100%;
+    width:50%;
+}
+
+#imagen4{
+    background-image: url("../landscape.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+    height:100%;
+    width:50%;
+}
+
+.desvanecido{
+    display: none !important;
+}

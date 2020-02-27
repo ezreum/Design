@@ -1,3 +1,3 @@
 $(document).ready(function () {
-	$('p').tipTool();
+	$('#inputito').preparadorInput("esto es para el placeholder", "colorin", "tamanio");
 });

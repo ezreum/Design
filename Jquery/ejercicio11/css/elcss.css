@@ -1,6 +1,11 @@
+label{
+    color:white;
+}
 .colorin{
-
+    color:purple;
+    font-size: 1.5em;
 }
 .tamanio{
-    
+    background-color: yellow;
+    border-radius: 15px;
 }

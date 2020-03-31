@@ -1,3 +1,7 @@
+$(document).ready(function () {
+    
+
+
 var gdpData = {
     //MADRID
     "ES-M" : 10000,
@@ -92,8 +96,8 @@ var gdpData = {
     "UNDEFINED": 0
 };
 
-$('.tree').vectorMap({
-    map: 'es_merc',
+$('.aa').vectorMap({
+    map: 'es_mill',
     series: {
         regions: [
             {
@@ -107,4 +111,6 @@ $('.tree').vectorMap({
     onRegionTipShow: function(e, el, code){
         el.html(el.html()+' (INFECTADOS: '+gdpData[code]+')');
     }
+});
+
 });
